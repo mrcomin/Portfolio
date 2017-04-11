@@ -969,9 +969,6 @@ hr {
   border-top: 1px solid #eee;
 }
 .sr-only {
-  font-family: Consolas;
-  font-size: 11px;
-  
   position: absolute;
   width: 1px;
   height: 1px;
@@ -981,9 +978,11 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.sr-only:hover{
-  display: block;
-  opacity: 1;
+.sr-only[value]{
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
