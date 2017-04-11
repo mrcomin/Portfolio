@@ -970,8 +970,9 @@ hr {
 }
 .sr-only {
   font-family: Consolas;
-  position: absolute;
   font-size: 11px;
+  
+  position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -982,16 +983,7 @@ hr {
 }
 .sr-only:hover{
   display: block;
-  font-family: Consolas;
-  position: absolute;
-  font-size: 11px;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: visible;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+  opacity: 1;
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
