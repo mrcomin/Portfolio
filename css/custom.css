@@ -1,6 +1,6 @@
 /* your styles go here */
 
-progress#progress-bar:before {
+#progress-bar:before {
     display: inline;
     content: "%" attr(aria-valuenow);
 }
