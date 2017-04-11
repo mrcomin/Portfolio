@@ -969,7 +969,9 @@ hr {
   border-top: 1px solid #eee;
 }
 .sr-only {
+  font-family: Consolas;
   position: absolute;
+  font-size: 11px;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -977,7 +979,6 @@ hr {
   overflow: visible;
   clip: rect(0, 0, 0, 0);
   border: 0;
-  color: black;
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
