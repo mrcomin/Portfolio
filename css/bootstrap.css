@@ -978,12 +978,6 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.sr-only[value]{
-  content: '80%';
-  position: absolute;
-  right: 0;
-  top: -125%;
-}
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
   position: static;
@@ -4823,6 +4817,12 @@ a.thumbnail.active {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
           box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+.progress[value]{
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
 }
 .progress-bar {
   float: left;
