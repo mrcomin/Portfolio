@@ -38,6 +38,14 @@ $(window).resize(function () {
 
 });
 
+/* =========================================
+ *  Hiding navbar responsive 
+ *  =======================================*/
+
+$('.navbar-collapse ul li a').click(function() {
+         $('.navbar-collapse').collapse('hide');
+ });
+
 
 /* =========================================
  *  for demo purpose only - can be deleted 
